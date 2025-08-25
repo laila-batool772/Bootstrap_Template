@@ -469,6 +469,9 @@ transition: all 0.5s ease;
   #portfolio{
     padding: 40px 0px;
   }
+  .bgyu{
+    border: 1px solid white !important;
+  }
   .app{
     display: flex;
     justify-content: center;
@@ -648,7 +651,7 @@ transition: all 0.5s ease;
   justify-content: center;
   opacity: 0;
   position: relative;
-  top: -120px;
+  top: -160px;
   transition: all 0.5s ease;
   
 }
@@ -663,7 +666,7 @@ transition: all 0.5s ease;
 }
 
 .headswe{
-  /* padding: 20px 30px; */
+  padding: 20px 30px;
   /* width: 220px; */
   background-color: #f1f1f1;
   box-shadow:0 0 3px 0 rgba(0, 0, 0, 0.5); 
@@ -818,6 +821,9 @@ color: var(--bluecolor);
   font-size: 20px;
   transition: all 0.3s ease;
   transform: rotate(0deg);
+}
+.accordian-item:not(.collapsed){
+  background-color: var(--bluecolor);
 }
 .accordion-button:not(.collapsed) .icon{
   transform: rotate(270deg);
@@ -976,8 +982,20 @@ textarea{
   align-items: center;
 }
 .textarea{
-  padding: 10px 40px;
+  padding: 10px;
+  border: 1px solid #444444;
 
+}
+.subject{
+  padding: 10px;
+  color: #444444;
+}
+.Message{
+      position: relative;
+    top: -151px;
+    left: 9px;
+    font-size: 16px;
+    color: #444444;
 }
 
 /* footer */
